@@ -336,12 +336,12 @@ INSERT INTO public.planet VALUES (12, 'HD 189733 b', NULL, false, 64, 5, true);
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.star VALUES (1, 'Sun', 'Yellow dwarf', true, 0, 1, NULL);
-INSERT INTO public.star VALUES (2, 'Alpha Centauri', 'Closest star system', true, 4, 1, NULL);
-INSERT INTO public.star VALUES (3, 'Sirius', 'Brightest star', true, 8, 1, NULL);
-INSERT INTO public.star VALUES (4, 'Betelgeuse', 'Red supergiant', true, 642, 1, NULL);
-INSERT INTO public.star VALUES (5, 'Vega', 'Fifth brightest star', true, 25, 1, NULL);
-INSERT INTO public.star VALUES (6, 'Rigel', 'Blue-white supergiant', true, 860, 1, NULL);
+INSERT INTO public.star VALUES (1, 'Sun', 'Yellow dwarf', true, 0, 1, 4603);
+INSERT INTO public.star VALUES (2, 'Alpha Centauri', 'Closest star system', true, 4, 1, 5000);
+INSERT INTO public.star VALUES (3, 'Sirius', 'Brightest star', true, 8, 1, 242);
+INSERT INTO public.star VALUES (4, 'Betelgeuse', 'Red supergiant', true, 642, 1, 10);
+INSERT INTO public.star VALUES (5, 'Vega', 'Fifth brightest star', true, 25, 1, 455);
+INSERT INTO public.star VALUES (6, 'Rigel', 'Blue-white supergiant', true, 860, 1, 8);
 
 
 --
